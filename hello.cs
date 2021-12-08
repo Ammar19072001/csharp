@@ -1,24 +1,13 @@
 using System;
-namespace hell
+namespace hello
 {
-    class program 
+    class ammar
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter a Number");
-            int a;
-            a = Convert.ToInt32(Console.ReadLine());
-            if(a>0)
+            for(int i=0; i<=255; i++)
             {
-                Console.WriteLine("The value is Postive");
-            }
-            else if(a<0)
-            {
-                Console.WriteLine("The value is Negative");
-            }
-            else if(a==0)
-            {
-                Console.WriteLine("The Value is Zero");
+                Console.WriteLine($"{i}:{(char)i}");
             }
         }
     }
